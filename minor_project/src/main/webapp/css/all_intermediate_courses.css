@@ -1,0 +1,40 @@
+@charset "UTF-8";
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#criteria_list {
+    padding: 6% 12%;
+    text-align: justify;
+}
+
+.criteria_points  {
+    margin: 2% 1%;
+    font-weight: bold;
+}
+
+.bottom_navigation {
+    margin: 1% 0%;
+    font-weight: bold;
+}
+
+/* Add hover effect for buttons/links */
+a, button {
+    color: inherit; /* Default color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Smooth transition */
+}
+
+a:hover, button:hover {
+    color: blue; /* Change color to blue on hover */
+    text-decoration: underline; /* Optional, adds underline on hover */
+}

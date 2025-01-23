@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+#criteria_list {
+    padding: 2% 10%;
+    text-align: justify;
+}
+
+.criteria_points {
+    margin: 1% 0%;
+}
+
+.bottom_navigation {
+    margin: 2% 0%;
+}

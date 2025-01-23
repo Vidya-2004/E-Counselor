@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Counselors</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Diagonal Background */
+        .diagonal-bg {
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        /* Hover Effects */
+        .hover-glow:hover {
+            box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.5);
+            transform: scale(1.05);
+        }
+
+        /* Glassmorphism */
+        .glass {
+            backdrop-filter: blur(15px);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Hero Section -->
+    <div class="diagonal-bg bg-gradient-to-br from-pink-700 via-purple-700 to-blue-700 text-white py-20 text-center">
+        <h1 class="text-6xl font-extrabold">Top Counselors</h1>
+        <p class="text-xl mt-4">Meet the best counselors with years of experience</p>
+    </div>
+
+    <!-- Counselors Section -->
+    <section class="py-16 relative z-10">
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 px-6">
+
+            <!-- Counselor Cards -->
+            <div class="glass hover-glow p-6 rounded-lg flex flex-col items-center text-center transition duration-300">
+                <img src="https://via.placeholder.com/150" alt="UdayBhaan" class="w-32 h-32 rounded-full mb-4">
+                <h2 class="text-2xl font-bold">UdayBhaan</h2>
+                <p class="text-sm text-gray-300">7 Years of Experience</p>
+                <p class="mt-2 text-gray-400">Specializes in Career Guidance & Study Abroad</p>
+                <a href="student-form.html?counselor=UdayBhaan" class="mt-4 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-2 rounded-full">Book Now</a>
+            </div>
+
+            <div class="glass hover-glow p-6 rounded-lg flex flex-col items-center text-center transition duration-300">
+                <img src="https://via.placeholder.com/150" alt="Ashish6" class="w-32 h-32 rounded-full mb-4">
+                <h2 class="text-2xl font-bold">Ashish6</h2>
+                <p class="text-sm text-gray-300">8 Years of Experience</p>
+                <p class="mt-2 text-gray-400">Specializes in Exam Strategies & Time Management</p>
+                <a href="student-form.html?counselor=Ashish6" class="mt-4 bg-gradient-to-r from-yellow-500 to-red-500 text-white px-6 py-2 rounded-full">Book Now</a>
+            </div>
+
+            <div class="glass hover-glow p-6 rounded-lg flex flex-col items-center text-center transition duration-300">
+                <img src="https://via.placeholder.com/150" alt="Niddhi Guptaa" class="w-32 h-32 rounded-full mb-4">
+                <h2 class="text-2xl font-bold">Niddhi Guptaa</h2>
+                <p class="text-sm text-gray-300">7 Years of Experience</p>
+                <p class="mt-2 text-gray-400">Specializes in Study Abroad & Scholarships</p>
+                <a href="student-form.html?counselor=Niddhi Guptaa" class="mt-4 bg-gradient-to-r from-green-500 to-teal-500 text-white px-6 py-2 rounded-full">Book Now</a>
+            </div>
+
+            <div class="glass hover-glow p-6 rounded-lg flex flex-col items-center text-center transition duration-300">
+                <img src="https://via.placeholder.com/150" alt="Ramesh Kumar" class="w-32 h-32 rounded-full mb-4">
+                <h2 class="text-2xl font-bold">Ramesh Kumar</h2>
+                <p class="text-sm text-gray-300">5 Years of Experience</p>
+                <p class="mt-2 text-gray-400">Specializes in Career Guidance & Motivational Support</p>
+                <a href="student-form.html?counselor=Ramesh Kumar" class="mt-4 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-2 rounded-full">Book Now</a>
+            </div>
+
+            <div class="glass hover-glow p-6 rounded-lg flex flex-col items-center text-center transition duration-300">
+                <img src="https://via.placeholder.com/150" alt="Seema Verma" class="w-32 h-32 rounded-full mb-4">
+                <h2 class="text-2xl font-bold">Seema Verma</h2>
+                <p class="text-sm text-gray-300">10 Years of Experience</p>
+                <p class="mt-2 text-gray-400">Specializes in Aptitude Test Prep & Admissions</p>
+                <a href="student-form.html?counselor=Seema Verma" class="mt-4 bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-2 rounded-full">Book Now</a>
+            </div>
+
+            <div class="glass hover-glow p-6 rounded-lg flex flex-col items-center text-center transition duration-300">
+                <img src="https://via.placeholder.com/150" alt="Aarav Sharma" class="w-32 h-32 rounded-full mb-4">
+                <h2 class="text-2xl font-bold">Aarav Sharma</h2>
+                <p class="text-sm text-gray-300">6 Years of Experience</p>
+                <p class="mt-2 text-gray-400">Specializes in Exam Strategies & Admissions</p>
+                <a href="student-form.html?counselor=Aarav Sharma" class="mt-4 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-2 rounded-full">Book Now</a>
+            </div>
+
+            <div class="glass hover-glow p-6 rounded-lg flex flex-col items-center text-center transition duration-300">
+                <img src="https://via.placeholder.com/150" alt="Riya Patel" class="w-32 h-32 rounded-full mb-4">
+                <h2 class="text-2xl font-bold">Riya Patel</h2>
+                <p class="text-sm text-gray-300">9 Years of Experience</p>
+                <p class="mt-2 text-gray-400">Specializes in Personality Development & Interviews</p>
+                <a href="student-form.html?counselor=Riya Patel" class="mt-4 bg-gradient-to-r from-pink-400 to-red-400 text-white px-6 py-2 rounded-full">Book Now</a>
+            </div>
+
+            <div class="glass hover-glow p-6 rounded-lg flex flex-col items-center text-center transition duration-300">
+                <img src="https://via.placeholder.com/150" alt="Shivendra Singh" class="w-32 h-32 rounded-full mb-4">
+                <h2 class="text-2xl font-bold">Shivendra Singh</h2>
+                <p class="text-sm text-gray-300">6 Years of Experience</p>
+                <p class="mt-2 text-gray-400">Specializes in Communication Skills & Leadership</p>
+                <a href="student-form.html?counselor=Shivendra Singh" class="mt-4 bg-gradient-to-r from-green-600 to-teal-400 text-white px-6 py-2 rounded-full">Book Now</a>
+            </div>
+
+            <div class="glass hover-glow p-6 rounded-lg flex flex-col items-center text-center transition duration-300">
+                <img src="https://via.placeholder.com/150" alt="Pooja Mehta" class="w-32 h-32 rounded-full mb-4">
+                <h2 class="text-2xl font-bold">Pooja Mehta</h2>
+                <p class="text-sm text-gray-300">4 Years of Experience</p>
+                <p class="mt-2 text-gray-400">Specializes in Career Counseling & Study Techniques</p>
+                <a href="student-form.html?counselor=Pooja Mehta" class="mt-4 bg-gradient-to-r from-orange-400 to-yellow-400 text-white px-6 py-2 rounded-full">Book Now</a>
+            </div>
+
+            <div class="glass hover-glow p-6 rounded-lg flex flex-col items-center text-center transition duration-300">
+                <img src="https://via.placeholder.com/150" alt="Vikash Agarwal" class="w-32 h-32 rounded-full mb-4">
+                <h2 class="text-2xl font-bold">Vikash Agarwal</h2>
+                <p class="text-sm text-gray-300">7 Years of Experience</p>
+                <p class="mt-2 text-gray-400">Specializes in Academic Performance & Mental Health</p>
+                <a href="student-form.html?counselor=Vikash Agarwal" class="mt-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white px-6 py-2 rounded-full">Book Now</a>
+            </div>
+
+            <!-- Add remaining counselors in similar fashion (up to 20) -->
+
+        </div>
+    </section>
+</body>
+</html>

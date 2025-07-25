@@ -3,6 +3,7 @@
 E‑Counselor is a web-based platform that enables remote psychological counseling and guidance. Built as a minor project, it showcases a complete solution that connects counselors and clients via an intuitive, secure portal.
 
 🔍 Overview
+
 This system offers core counseling features, designed and developed to streamline the counseling process in educational or institutional environments:
 
 • User Roles: Admin, Counselor, Client/Student

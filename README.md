@@ -1,8 +1,8 @@
-💻 E‑Counselor — Online Counseling System (Minor Project)
-
+**💻 E‑Counselor — Online Counseling System (Minor Project)
+**
 E‑Counselor is a web-based platform that enables remote psychological counseling and guidance. Built as a minor project, it showcases a complete solution that connects counselors and clients via an intuitive, secure portal.
 
-🔍 Overview
+🔍 **Overview**
 
 This system offers core counseling features, designed and developed to streamline the counseling process in educational or institutional environments:
 
@@ -20,8 +20,8 @@ This system offers core counseling features, designed and developed to streamlin
 
 • Reporting & Analytics: Usage stats and session summaries
 
-🛠️ Technologies Used
-• Frontend: (e.g. HTML, CSS, JavaScript, React or similar)
+**🛠️ Technologies Used
+**• Frontend: (e.g. HTML, CSS, JavaScript, React or similar)
 
 • Backend: (e.g. Node.js / Django / ASP.NET) with RESTful APIs
 
@@ -29,7 +29,7 @@ This system offers core counseling features, designed and developed to streamlin
 
 • Security: Authentication, input validation, secure transport protocols
 
-✅ Key Features & Skills Demonstrated
+**✅ Key Features & Skills Demonstrated**
 • End-to-end web application development: UI, backend, database integration
 
 • Role-based authentication and secure session handling
@@ -53,7 +53,7 @@ E‑Counselor/
 ├── README.md               ← Project overview & setup guide  
 └── .gitignore, LICENSE etc.
 
-🧩 Learning Outcomes
+**🧩 Learning Outcomes**
 • Built a real-world web application end-to-end
 
 • Strengthened full-stack development, RESTful design, and database proficiency
@@ -62,7 +62,8 @@ E‑Counselor/
 
 • Gained experience in asynchronous communication and session tracking
 
-🎯 Ideal For
+**🎯 Ideal For
+**
 This project demonstrates relevant skills for roles such as:
 
 • Full Stack Developer

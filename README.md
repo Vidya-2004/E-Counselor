@@ -53,14 +53,20 @@ E‑Counselor/
 
 🧩 Learning Outcomes
 • Built a real-world web application end-to-end
+
 • Strengthened full-stack development, RESTful design, and database proficiency
+
 • Explored best practices for security, user management, and UI/UX
+
 • Gained experience in asynchronous communication and session tracking
 
 🎯 Ideal For
 This project demonstrates relevant skills for roles such as:
 
 • Full Stack Developer
+
 • Backend Engineer
+
 • Web Application Developer
+
 • Software Intern (using relevant tech stacks)

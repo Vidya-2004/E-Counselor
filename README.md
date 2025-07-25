@@ -1,4 +1,5 @@
 💻 E‑Counselor — Online Counseling System (Minor Project)
+
 E‑Counselor is a web-based platform that enables remote psychological counseling and guidance. Built as a minor project, it showcases a complete solution that connects counselors and clients via an intuitive, secure portal.
 
 🔍 Overview
